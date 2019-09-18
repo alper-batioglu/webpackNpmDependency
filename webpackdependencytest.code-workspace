@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "inner"
+		},
+		{
+			"path": "outer"
+		},
+		{
+			"path": "library"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "outer"
+	}
+}

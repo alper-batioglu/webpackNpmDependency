@@ -1,0 +1,19 @@
+{
+  "name": "outer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "go": "npm link && npm link mylibrary && npm link inner & npm run build",
+    "build": "webpack",
+    "buildWatch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "source-map-loader": "^0.2.4",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpackbar": "^3.2.0"
+  }
+}

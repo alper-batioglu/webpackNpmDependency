@@ -1,0 +1,22 @@
+{
+  "name": "mylibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/mylibrary.js",
+  "scripts": {
+    "go": "npm link && npm run build",
+    "build": "webpack",
+    "buildWatch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.3",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpackbar": "^3.2.0"
+  }
+}
